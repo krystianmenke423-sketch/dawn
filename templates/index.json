@@ -9,34 +9,85 @@
  */
 {
   "sections": {
-    "rich_text": {
+    "rich_text_FLPbVF": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "heading_9gUTW7": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Lepszy strumień wody w 10 sekund",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_YANCtj": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Udostępnij klientom informacje o swojej marce. Opisz produkt, udostępnij ogłoszenia lub przywitaj klientów w swoim sklepie.</p>"
+          }
+        },
+        "button_GgX8bk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kup teraz",
+            "button_link": "#template--28400590782791__featured_product_dUJPTg",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading_9gUTW7",
+        "text_YANCtj",
+        "button_GgX8bk"
       ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_zRVAjm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xakxfn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Obraz z tekstem",
+            "heading_size": "h1"
+          }
+        },
+        "text_MTWph3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xakxfn",
+        "text_MTWph3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_product_dUJPTg": {
@@ -156,7 +207,8 @@
     }
   },
   "order": [
-    "rich_text",
+    "rich_text_FLPbVF",
+    "image_with_text_zRVAjm",
     "featured_product_dUJPTg",
     "multicolumn"
   ]
